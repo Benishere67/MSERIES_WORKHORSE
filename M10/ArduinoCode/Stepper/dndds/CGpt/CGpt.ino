@@ -53,7 +53,7 @@ void loop() {
     moveStepperReverse(&step_number_2, STEPPER_PIN_5, STEPPER_PIN_6, STEPPER_PIN_7, STEPPER_PIN_8);
     moveStepperReverse(&step_number_3, STEPPER_PIN_9, STEPPER_PIN_10, STEPPER_PIN_11, STEPPER_PIN_12);
   }
-  delay(30); // Adjust delay for desired speed
+  delay(2); // Adjust delay for desired speed
 }
 
 void moveStepper(int *step_number, int pin1, int pin2, int pin3, int pin4) {
