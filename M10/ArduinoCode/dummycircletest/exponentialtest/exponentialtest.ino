@@ -57,7 +57,7 @@ float exponentialSpeed(int input, float exponent) {
   // Apply exponential curve
   float expOutput = pow(normalizedInput, exponent);
   // Scale back to motor speed range
-  return expOutput * 725; // Adjust the multiplier to match your motor's speed range
+  return expOutput * 650; // Adjust the multiplier to match your motor's speed range
 }
 
 void loop() {
